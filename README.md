@@ -1,4 +1,4 @@
-`dateseq` is a utility that might be handy to you. Given two dates, it prints out all the dates between those dates (including the start date, but excluding the end date).
+Given two dates, `dateseq` prints out all the dates between those dates (including the start date, but excluding the end date).
 
 Install
 ===
