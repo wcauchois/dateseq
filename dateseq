@@ -3,7 +3,7 @@ import sys, datetime, os
 
 if len(sys.argv) < 3:
   print 'gimme two dates'
-  sys.exit(0)
+  sys.exit(1)
 
 program_name = os.path.basename(sys.argv[0])
 
