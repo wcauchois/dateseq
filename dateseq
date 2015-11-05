@@ -15,11 +15,11 @@ try:
   end = dt(sys.argv[2])
 except ValueError:
   print 'parse error'
-  sys.exit(0)
+  sys.exit(1)
 
 if end < start:
   print '%s only goes forward' % program_name
-  sys.exit(0)
+  sys.exit(1)
 
 current = start
 
